@@ -20,10 +20,19 @@ $webfatorial-colors: (
 );
 
 
-// personal colors ( change "personal" to whatever name )
+// sweava colors
 // ==========================================================================
 
-$personal-colors: ();
+$sweava-colors: (
+  'primary'   : #5956e9,
+  'secondary' : #fab8c3,
+  'yellow'    : #efb60e,
+  'dark'      : #000000,
+  'gray'      : #868686,
+  'light-gray': #c9c9c9,
+  'white'     : #ffffff,
+  'gradient'  : linear-gradient(54deg, rgba(237,238,246,1) 60%, rgba(237,238,246,0) 100%),
+);
 
 
 // Social Media
