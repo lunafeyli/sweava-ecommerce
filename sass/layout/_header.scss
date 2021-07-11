@@ -1,3 +1,73 @@
 header {
-	@include pos(fixed, 0, auto, auto , 0)
+	@include pos(fixed, 0, auto, auto, 0);
+
+	background: var(--white);
+
+	@include flex(center, space-between);
+
+	width: calc(100% - 2.4rem * 2);
+	padding: rem(32) rem(24);
+
+	.vegie-menu {
+		z-index: z-index("dropdown") + 1;
+
+		background: transparent;
+		border: 0;
+		outline: 0;
+
+		.icon {
+			@include flex(center, center, column);
+			gap: 6px;
+
+			&::after {
+				content: "";
+				display: block;
+				height: 2px;
+				width: 22px;
+				background: var(--gray);
+			}
+
+			&::before {
+				content: "";
+				display: block;
+				height: 2px;
+				width: 22px;
+				background: var(--gray);
+			}
+		}
+	}
+
+	nav {
+		transform: translateY(-150%);
+
+		height: 100vh;
+		width: 100vw;
+
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: z-index("dropdown");
+
+		@include flex(center, center, column);
+
+		background: var(--white);
+		transition: 0.2s all ease-in-out;
+
+		gap: rem(16);
+
+		&.opened {
+			transform: translateY(0);
+		}
+
+		a {
+			color: var(--dark);
+
+			font-size: rem(32);
+			font-weight: bold;
+
+			&:hover {
+				color: var(--primary);
+			}
+		}
+	}
 }
