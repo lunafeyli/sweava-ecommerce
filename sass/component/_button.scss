@@ -1,0 +1,18 @@
+.button {
+    width: rem(156);
+    height: rem(56);
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid var(--primary);
+    background: var(--primary);
+    color: var(--white);
+    font-size: rem(16);
+    font-weight: bold;
+    box-shadow: 0 20px 40px 0 rgba(0,0,0,.2);
+    transition: .1s all ease-in-out;
+
+    &:hover {
+        background-color: transparent;
+        color: var(--primary);
+    }
+}
