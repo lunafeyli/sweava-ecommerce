@@ -31,4 +31,42 @@ header {
   right: auto;
   bottom: auto;
   left: 0;
+}
+
+.title {
+  font-size: 60px;
+  font-weight: bold;
+  color: var(--dark);
+}
+
+.subtitle {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--primary);
+}
+
+.description {
+  font-size: 24px;
+  font-weight: normal;
+  color: var(--gray);
+}
+
+@media (max-width: 414px) {
+  .title {
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--dark);
+  }
+
+  .subtitle {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--primary);
+  }
+
+  .description {
+    font-size: 24px;
+    font-weight: normal;
+    color: var(--gray);
+  }
 }/*# sourceMappingURL=style.css.map */
