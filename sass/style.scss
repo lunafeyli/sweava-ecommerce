@@ -7,10 +7,9 @@
 @import "general/variables";
 @import "general/functions";
 @import "general/reset";
-@import "general/z-index";
 
 :root {
-	@each $name, $color in $personal-colors {
+	@each $name, $color in $sweava-colors {
 		--#{$name}: #{$color};
 	}
 }
