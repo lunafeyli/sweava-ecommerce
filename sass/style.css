@@ -173,6 +173,26 @@ main #download .title {
   width: 80%;
 }
 
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 3.2rem;
+}
+footer .title {
+  width: 90%;
+  margin-bottom: 0;
+}
+footer img {
+  transform: scaleX(-1);
+}
+footer .copywright {
+  font-size: 1.4rem;
+  padding-bottom: 0.4rem;
+}
+
 .title {
   font-size: 60px;
   font-weight: bold;

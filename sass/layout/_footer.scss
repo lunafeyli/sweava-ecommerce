@@ -1,1 +1,19 @@
-footer {}
+footer {
+	@include flex(center, center, column);
+	text-align: center;
+	padding-top: rem(32);
+
+	.title {
+		width: 90%;
+		margin-bottom: 0;
+	}
+
+	img {
+		transform: scaleX(-1);
+	}
+
+	.copywright {
+		font-size: rem(14);
+		padding-bottom: rem(4);
+	}
+}
