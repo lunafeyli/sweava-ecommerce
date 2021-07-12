@@ -141,6 +141,22 @@ main #exp-ar .description {
   width: 80%;
 }
 
+main #hottest {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 6.4rem;
+  text-align: center;
+}
+main #hottest .title {
+  margin: 0.8rem 0;
+}
+main #hottest .description {
+  margin-bottom: 6.4rem;
+  width: 80%;
+}
+
 .title {
   font-size: 60px;
   font-weight: bold;
