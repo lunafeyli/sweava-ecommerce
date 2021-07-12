@@ -124,6 +124,22 @@ main #discover .description {
   margin-bottom: 6.4rem;
 }
 
+main #exp-ar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 6.4rem;
+  text-align: center;
+}
+main #exp-ar .title {
+  margin: 0.4rem;
+}
+main #exp-ar .description {
+  margin-bottom: 3.2rem;
+  width: 80%;
+}
+
 .title {
   font-size: 60px;
   font-weight: bold;
