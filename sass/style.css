@@ -157,6 +157,22 @@ main #hottest .description {
   width: 80%;
 }
 
+main #download {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 15.6rem;
+  padding: 3.2rem;
+  background: var(--secondary);
+  text-align: center;
+}
+main #download .title {
+  margin: 0.8rem 0;
+  color: var(--primary);
+  width: 80%;
+}
+
 .title {
   font-size: 60px;
   font-weight: bold;

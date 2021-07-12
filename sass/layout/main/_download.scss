@@ -1,0 +1,16 @@
+main #download {
+	@include flex(center, center, column);
+
+	margin-top: rem(156);
+	padding: rem(32);
+
+	background: var(--secondary);
+
+	text-align: center;
+
+	.title {
+		margin: rem(8) 0;
+		color: var(--primary);
+		width: 80%;
+	}
+}
