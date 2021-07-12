@@ -122,6 +122,7 @@ main #discover .title {
 }
 main #discover .description {
   margin-bottom: 6.4rem;
+  width: 80%;
 }
 
 main #exp-ar {
