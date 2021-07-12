@@ -1,9 +1,5 @@
 main #discover {
-	@include flex(center, center, column);
-
 	padding-top: rem(64);
-
-	text-align: center;
 
 	.title {
 		margin: rem(8) 0;
@@ -11,6 +7,5 @@ main #discover {
 
 	.description {
 		margin-bottom: rem(64);
-		width: 80%;
 	}
 }

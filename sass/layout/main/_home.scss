@@ -1,12 +1,5 @@
 main #home {
-	@include flex(center, center, column);
-
 	padding-top: rem(100px);
-	text-align: center;
-
-	.description {
-		width: 80%;
-	}
 
 	img {
 		width: 100%;

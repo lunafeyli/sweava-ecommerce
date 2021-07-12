@@ -18,12 +18,22 @@
 // Layout ( eg. Header, Main, Footer )
 // ==========================================================================
 
+// Header
+
 @import "layout/header";
+
+// Main
+
+@import "layout/main/general";
+
 @import "layout/main/home";
 @import "layout/main/discover";
 @import "layout/main/exp-ar";
 @import "layout/main/hottest";
 @import "layout/main/download";
+
+// Footer
+
 @import "layout/footer";
 
 // ==========================================================================

@@ -1,16 +1,11 @@
 main #exp-ar {
-	@include flex(center, center, column);
-
 	padding-top: rem(64);
 
-	text-align: center;
-
 	.title {
-		margin: rem(4);
+		margin: rem(4) 0;
 	}
 
 	.description {
 		margin-bottom: rem(32);
-		width: 80%;
 	}
 }

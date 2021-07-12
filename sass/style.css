@@ -94,83 +94,72 @@ header nav a:hover {
   color: var(--primary);
 }
 
-main #home {
+main {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding-top: 10rem;
+}
+main .main-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   text-align: center;
 }
-main #home .description {
+main .main-section .title {
+  width: 85%;
+  margin-bottom: 0;
+}
+main .main-section .description {
   width: 80%;
+}
+
+main #home {
+  padding-top: 10rem;
 }
 main #home img {
   width: 100%;
 }
 
 main #discover {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   padding-top: 6.4rem;
-  text-align: center;
 }
 main #discover .title {
   margin: 0.8rem 0;
 }
 main #discover .description {
   margin-bottom: 6.4rem;
-  width: 80%;
 }
 
 main #exp-ar {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   padding-top: 6.4rem;
-  text-align: center;
 }
 main #exp-ar .title {
-  margin: 0.4rem;
+  margin: 0.4rem 0;
 }
 main #exp-ar .description {
   margin-bottom: 3.2rem;
-  width: 80%;
 }
 
 main #hottest {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   padding-top: 6.4rem;
-  text-align: center;
 }
 main #hottest .title {
   margin: 0.8rem 0;
 }
 main #hottest .description {
   margin-bottom: 6.4rem;
-  width: 80%;
 }
 
 main #download {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   margin-top: 15.6rem;
   padding: 3.2rem;
   background: var(--secondary);
-  text-align: center;
 }
 main #download .title {
   margin: 0.8rem 0;
   color: var(--primary);
-  width: 80%;
 }
 
 footer {

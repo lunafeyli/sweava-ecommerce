@@ -1,0 +1,17 @@
+main {
+	@include flex(center, center, column);
+
+	.main-section {
+		@include flex(center, center, column);
+		text-align: center;
+
+		.title {
+			width: 85%;
+			margin-bottom: 0;
+		}
+
+		.description {
+			width: 80%;
+		}
+	}
+}
